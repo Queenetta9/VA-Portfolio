@@ -9,6 +9,7 @@
      --bg-brown: #fcfcfc;
      --orange: #ff914d;
      --orange-hover: #ff9e62;
+     --grey: #bbb;
 }
 body {
      background-color: var(--bg-brown);

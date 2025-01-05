@@ -1,6 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { FaTwitter } from 'react-icons/fa6'
+import {MdEmail} from 'react-icons/md'
+import {SiCalendly} from 'react-icons/si'
 
 const Explore = () => {
   return (
@@ -72,7 +75,14 @@ const Explore = () => {
           < br /> 
           <Link className='p-4 bg-[var(--orange)] rounded text-[20px] hover:bg-[var(--orange-hover)]' href={'https://calendly.com/falolaelizabeth093/30min'}>Book a call</Link>
         </div>
+
+        <div className='p-4 flex gap-x-4'>
+        <Link href={'https://x.com/queenetta'}><FaTwitter className='text-[2em] cursor-pointer'/></Link>  
+          <Link href={'mailto:falolaelizabeth093@gmail.com'} ><MdEmail className='text-[2em] cursor-pointer' /></Link>
+          <Link href={'https://calendly.com/falolaelizabeth093/30min'}><SiCalendly className='text-[2em] cursor-pointer'/></Link>
+        </div>
       </div>
+      <p className='p-4 text-center text-[var(--grey)]'>© Copyright 2025 FALOLA ELIZABETH, All Rights Reserved.</p>
 
     </>
   )

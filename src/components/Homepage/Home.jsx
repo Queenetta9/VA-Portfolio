@@ -15,13 +15,15 @@ const Home = () => {
           alt="Queen"
           className="rounded-md"
           />
-          <h1 className="font-bold text-[3em] text-[var(--brown)] text-center">Hello! I'm Queen</h1>
+          <h1 className="font-bold text-[3em] text-[var(--brown)] text-center">Hello! I'm Elizabeth</h1>
           <p className="text-[24px] text-center">Your (potential) Virtual Assistant.</p>
           <div className="flex items-center justify-center w-full gap-x-8">
           <Link className="p-4 bg-[var(--orange)] rounded text-[20px] hover:bg-[var(--orange-hover)] mt-4 text-center" href={'/about'}>About me</Link> 
           <Link className="p-4 bg-[var(--orange)] rounded text-[20px] hover:bg-[var(--orange-hover)] mt-4 text-center" href={'/explore'}>Explore</Link> 
           </div>
         </div>
+      <p className='mt-4 text-[var(--grey)]'>© Copyright 2025 FALOLA ELIZABETH, All Rights Reserved.</p>
+
       </div>
     </>
   )

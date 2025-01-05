@@ -53,6 +53,8 @@ const about = () => {
                     </ul>
           </div>
       </div>
+
+      <p className='p-4 text-center text-[var(--grey)]'>© Copyright 2025 FALOLA ELIZABETH, All Rights Reserved.</p>
     </>
   )
 }
