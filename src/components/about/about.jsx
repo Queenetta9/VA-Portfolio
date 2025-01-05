@@ -4,7 +4,7 @@ import Queen from '/public/Queenn.jpg'
 const about = () => {
   return (
     <>
-      <div className='flex justify-center p-4 gap-x-8 w-full'>
+      <div className='lg:flex block justify-center p-4 gap-x-8 w-full'>
           <div>
                <Image 
                width={350}
@@ -14,7 +14,7 @@ const about = () => {
                className='rounded'
                />
           </div>
-          <div className='w-[50%]'>
+          <div className='lg:w-[50%] w-full'>
                <h2 className='font-bold text-[3em] text-[var(--brown)] text-center mt-4'>About Me</h2>
                <p className='mt-4'>As a highly skilled and versatile Virtual Assistant, I bring a wealth of experience in administrative support, project management, client relations, and creative content production. With a proven track record of streamlining workflows, managing complex schedules, and delivering high-quality outputs, I pride myself on my: organizational efficiency, proactive problem-solving, and strong communication skills. My ability to adapt to new technologies and tools allows me to deliver tailored solutions that meet client needs effectively.</p>
 
